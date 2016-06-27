@@ -82,7 +82,7 @@
 
     [sN setString:[self getParam:self.scan_content :@"N:"]];
     [sTITLE setString:[self getParam:self.scan_content :@"TITLE:"]];
-    [sM setString:[self getParam:self.scan_content :@"M:"]];
+    [sM setString:[self getParam:self.scan_content :@"TEL:"]];
     [sEMAIL setString:[self getParam:self.scan_content :@"EMAIL:"]];
     [sORG setString:[self getParam:self.scan_content :@"ORG:"]];
     [sADR setString:[self getParam:self.scan_content :@"ADR:"]];

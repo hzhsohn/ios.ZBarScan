@@ -1,18 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95A137D4617E253343B799985127E0F21E29C402+++FE04E38",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95A137D4617E253343B799985127E0F21E29C402+++88167E6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "95A137D4617E253343B799985127E0F21E29C402+++FE04E38" : 0,
+    "95A137D4617E253343B799985127E0F21E29C402+++88167E6" : 0,
+    "95A137D4617E253343B799985127E0F21E29C402+++A6C58DF" : 0,
     "95A137D4617E253343B799985127E0F21E29C402+++053E3F2" : 0,
-    "95A137D4617E253343B799985127E0F21E29C402+++A6C58DF" : 0
+    "95A137D4617E253343B799985127E0F21E29C402+++FE04E38" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2E7E847B-7DB4-4A7A-95D9-B4DEB82F3291",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "95A137D4617E253343B799985127E0F21E29C402+++FE04E38" : "ZBarScan\/",
+    "95A137D4617E253343B799985127E0F21E29C402+++88167E6" : "ios.ZBarScan\/",
+    "95A137D4617E253343B799985127E0F21E29C402+++A6C58DF" : "",
     "95A137D4617E253343B799985127E0F21E29C402+++053E3F2" : "",
-    "95A137D4617E253343B799985127E0F21E29C402+++A6C58DF" : ""
+    "95A137D4617E253343B799985127E0F21E29C402+++FE04E38" : "ZBarScan\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ZBarScan",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.2.1:myapp\/ZBarScan",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95A137D4617E253343B799985127E0F21E29C402+++053E3F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.3.100:diy\/ios.zh.ZBarScan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95A137D4617E253343B799985127E0F21E29C402+++88167E6"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.2.1:ios.zh.ZBarScan.git",

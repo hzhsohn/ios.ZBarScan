@@ -260,6 +260,8 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
             [_sanValue setString:sym.data];
             resultText.text = _sanValue;
             [Objc_AudioPlay play:scanokID];
+            //弹出对应的操作界面
+            [self btnLabelHideButton_click:nil];
             break;
         }
         if (FALSE==ishasqr) {

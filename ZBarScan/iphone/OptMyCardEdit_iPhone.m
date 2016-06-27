@@ -85,7 +85,7 @@
     if (configList) {
         txtN.text=[configList objectForKey:@"N"];
         txtTITLE.text=[configList objectForKey:@"TITLE"];
-        txtM.text=[configList objectForKey:@"M"];
+        txtM.text=[configList objectForKey:@"TEL"];
         txtEMAIL.text=[configList objectForKey:@"EMAIL"];
         txtORG.text=[configList objectForKey:@"ORG"];
         txtADR.text=[configList objectForKey:@"ADR"];
@@ -151,7 +151,7 @@
     
     [configList setValue:txtN.text forKey:@"N"];
     [configList setValue:txtTITLE.text forKey:@"TITLE"];
-    [configList setValue:txtM.text forKey:@"M"];
+    [configList setValue:txtM.text forKey:@"TEL"];
     [configList setValue:txtEMAIL.text forKey:@"EMAIL"];
     [configList setValue:txtORG.text forKey:@"ORG"];
     [configList setValue:txtADR.text forKey:@"ADR"];

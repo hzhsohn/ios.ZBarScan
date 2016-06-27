@@ -55,7 +55,7 @@
                          ADR:(NSString*)adr
                          URL:(NSString*)url
 {
-    NSString*msg=[NSString stringWithFormat:@"MECARD:N:%@;TITLE:%@;M:%@;EMAIL:%@;ORG:%@;ADR:%@;URL:%@",
+    NSString*msg=[NSString stringWithFormat:@"MECARD:N:%@;TITLE:%@;TEL:%@;EMAIL:%@;ORG:%@;ADR:%@;URL:%@",
                   n,tit,m,em,org,adr,url];
     
     lbMsgTip.text=msg;
@@ -93,7 +93,7 @@
         //读取键值
         NSString *myname  = [configList objectForKey:@"N"];
         NSString *title = [configList objectForKey:@"TITLE"];
-        NSString *mobile = [configList objectForKey:@"M"];
+        NSString *mobile = [configList objectForKey:@"TEL"];
         NSString *email = [configList objectForKey:@"EMAIL"];
         NSString *org = [configList objectForKey:@"ORG"];
         NSString *address = [configList objectForKey:@"ADR"];
